@@ -1,0 +1,598 @@
+
+
+@media(min-width:1201px){
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+        margin: 0;
+        background-image: url('/static/styles/lab2.jpg');
+        background-size: 100% 100%;
+    }
+    
+    .floor{
+        display: grid;
+        height: 418.575px;
+        width:901.05px;
+        padding: 11.25px;
+        background-color:black;
+        grid-template-columns: 168.9px 109.2px 164.1px 122.1px 122.1px 158.4px;
+        grid-template-rows: 129.6px 68.4px 198.0375px;
+        gap: 11.25px;
+        margin-top: 8vh;
+        
+    
+    }
+    .lab1{
+        grid-area: 1/1/3/2;
+        order: 0;
+        background-color:rgb(151, 164, 170);
+        
+    }
+    .lab1 a{
+        display: block;
+        height: 100%;
+        width: 100%; 
+        color: black; 
+    }
+    .storage{
+        grid-area: 1/2/2/3;
+        order: 0;
+        background-color: #d3d1d1;
+    }
+    .lab2{
+        grid-area: 1/3/3/4;
+        order: 0;
+        background-color: rgb(151, 164, 170);  
+        
+    }
+    .bathroom1{
+        grid-area: 1/4/2/5;
+        order: 0;
+        background-color: #828282;  
+    }
+    .bathroom2{
+        grid-area: 1/5/2/6;
+        order: 0;
+        background-color: #828282; 
+    }
+    .lab3{
+        grid-area: 1/6/3/7;
+        order: 0;
+        background-color: rgb(151, 164, 170);  
+    }
+    .lab4{
+        grid-area: 3/1/4/2;
+        order: 0;
+        background-color: rgb(151, 164, 170);  
+    }
+    .lobby1{
+        grid-area: 2/2/4/3;
+        order: 0;
+        background-color:rgb(251, 226, 204);
+    }
+    .lobby2{
+        grid-area: 3/2/4/5; 
+        order: 0;
+        background-color:rgb(251, 226, 204); 
+    }
+    .lobby3{
+        grid-area: 2/4/4/6; 
+        order: 0;
+        background-color:rgb(251, 226, 204);
+    }
+    .lab5{
+        grid-area:3/6/4/7;
+        order: 0;
+        background-color: rgb(151, 164, 170); 
+    }
+    h2{
+        font-size: medium;
+        text-align: center;
+        margin-bottom: 20px;
+        
+    }
+    h1{
+        color: #2f4f4f;
+        
+    }
+    }
+    @media(min-width:1000px) and (max-width:1200px){
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+            background-image: url('/static/styles/lab2.jpg');
+            background-size: 100% 100%;
+        }
+        
+        .floor{
+            display: grid;
+            height: 334.86px;
+            width:720.84px;
+            padding: 9px;
+            background-color:black;
+            grid-template-columns: 135.12px 87.36px 131.28px 97.68px 97.68px 126.72px;
+            grid-template-rows: 103.68px 54.72px 158.43px;
+            gap: 9px;
+            margin-top: 8vh;
+            
+        
+        }
+        .lab1{
+            grid-area: 1/1/3/2;
+            order: 0;
+            background-color:rgb(151, 164, 170);
+            
+        }
+        .lab1 a{
+            display: block;
+            height: 100%;
+            width: 100%;  
+            color: black; 
+        }
+        .storage{
+            grid-area: 1/2/2/3;
+            order: 0;
+            background-color: #d3d1d1;
+        }
+        .lab2{
+            grid-area: 1/3/3/4;
+            order: 0;
+            background-color: rgb(151, 164, 170);  
+            
+        }
+        .bathroom1{
+            grid-area: 1/4/2/5;
+            order: 0;
+            background-color: #828282;  
+        }
+        .bathroom2{
+            grid-area: 1/5/2/6;
+            order: 0;
+            background-color: #828282; 
+        }
+        .lab3{
+            grid-area: 1/6/3/7;
+            order: 0;
+            background-color: rgb(151, 164, 170);  
+        }
+        .lab4{
+            grid-area: 3/1/4/2;
+            order: 0;
+            background-color: rgb(151, 164, 170);  
+        }
+        .lobby1{
+            grid-area: 2/2/4/3;
+            order: 0;
+            background-color:rgb(251, 226, 204);
+        }
+        .lobby2{
+            grid-area: 3/2/4/5; 
+            order: 0;
+            background-color:rgb(251, 226, 204); 
+        }
+        .lobby3{
+            grid-area: 2/4/4/6; 
+            order: 0;
+            background-color:rgb(251, 226, 204);
+        }
+        .lab5{
+            grid-area:3/6/4/7;
+            order: 0;
+            background-color: rgb(151, 164, 170); 
+        }
+        h2{
+            font-size: medium;
+            text-align: center;
+            margin-bottom: 20px;
+            
+        }
+        h1{
+            color: #2f4f4f;
+            
+        }
+      }
+      @media(min-width:800px) and (max-width:999px)
+      {
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+            background-image: url('/static/styles/lab2.jpg');
+            background-size: 100% 100%
+        }
+        
+        .floor{
+            display: grid;
+            height: 251.145px;
+            width:540.63px;
+            padding: 6.75px;
+            background-color:black;
+            grid-template-columns: 101.34px 65.52px 98.46px 73.26px 73.26px 95.04px;
+            grid-template-rows:77.76px 41.04px 118.8225px;
+            gap: 6.75px;
+            margin-top: 8vh;
+        
+        }
+        .lab1{
+            grid-area: 1/1/3/2;
+            order: 0;
+            background-color: rgb(151, 164, 170);
+        }
+        .lab1 a{
+            display: block;
+            height: 100%;
+            width: 100%; 
+            color: black;  
+        }
+        .storage{
+            grid-area: 1/2/2/3;
+            order: 0;
+            background-color: #d3d1d1;
+        }
+        .lab2{
+            grid-area: 1/3/3/4;
+            order: 0;
+            background-color: rgb(151, 164, 170); 
+            
+        }
+        .bathroom1{
+            grid-area: 1/4/2/5;
+            order: 0;
+            background-color: #828282;  
+        }
+        .bathroom2{
+            grid-area: 1/5/2/6;
+            order: 0;
+            background-color: #828282; 
+        }
+        .lab3{
+            grid-area: 1/6/3/7;
+            order: 0;
+            background-color: rgb(151, 164, 170); 
+        }
+        .lab4{
+            grid-area: 3/1/4/2;
+            order: 0;
+            background-color: rgb(151, 164, 170); 
+        }
+        .lobby1{
+            grid-area: 2/2/4/3;
+            order: 0;
+            background-color:rgb(251, 226, 204);
+        }
+        .lobby2{
+            grid-area: 3/2/4/5; 
+            order: 0;
+            background-color:rgb(251, 226, 204);
+        }
+        .lobby3{
+            grid-area: 2/4/4/6; 
+            order: 0;
+            background-color:rgb(251, 226, 204);
+        }
+        .lab5{
+            grid-area:3/6/4/7;
+            order: 0;
+            background-color: rgb(151, 164, 170); 
+        }
+        h2{
+            font-size: small;
+            text-align: center;
+            margin-bottom: 20px;
+            
+        }
+        h1{
+            color: #2f4f4f;
+            font-size: x-large;
+            
+        }
+      }
+      @media(min-width:600px) and (max-width:799px)
+      {
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+            background-image: url('/static/styles/lab2.jpg');
+            background-size: 100% 100%;
+        }
+        
+        .floor{
+            display: grid;
+            height: 217.659px;
+            width:468.546px;
+            padding: 5.85px;
+            background-color:black;
+            grid-template-columns: 85.878px 56.784px 85.332px 63.492px 63.492px 82.368px;
+            grid-template-rows: 68.692px 35.568px 102.9795px;
+            gap: 5.85px;
+            margin-top: 5.2vh;
+            
+        
+        }
+        .lab1{
+            grid-area: 1/1/3/2;
+            order: 0;
+            background-color:rgb(151, 164, 170);
+            
+        }
+        .lab1 a{
+            display: block;
+            height: 100%;
+            width: 100%;
+            color: black;   
+        }
+        .storage{
+            grid-area: 1/2/2/3;
+            order: 0;
+            background-color: #d3d1d1;
+        }
+        .lab2{
+            grid-area: 1/3/3/4;
+            order: 0;
+            background-color: rgb(151, 164, 170);  
+            
+        }
+        .bathroom1{
+            grid-area: 1/4/2/5;
+            order: 0;
+            background-color: #828282;  
+        }
+        .bathroom2{
+            grid-area: 1/5/2/6;
+            order: 0;
+            background-color: #828282; 
+        }
+        .lab3{
+            grid-area: 1/6/3/7;
+            order: 0;
+            background-color: rgb(151, 164, 170);  
+        }
+        .lab4{
+            grid-area: 3/1/4/2;
+            order: 0;
+            background-color: rgb(151, 164, 170);  
+        }
+        .lobby1{
+            grid-area: 2/2/4/3;
+            order: 0;
+            background-color:rgb(251, 226, 204);
+        }
+        .lobby2{
+            grid-area: 3/2/4/5; 
+            order: 0;
+            background-color:rgb(251, 226, 204); 
+        }
+        .lobby3{
+            grid-area: 2/4/4/6; 
+            order: 0;
+            background-color:rgb(251, 226, 204);
+        }
+        .lab5{
+            grid-area:3/6/4/7;
+            order: 0;
+            background-color: rgb(151, 164, 170); 
+        }
+        h2{
+            font-size: x-small;
+            text-align: center;
+            margin-bottom: 20px;
+            
+        }
+        h1{
+            color: #2f4f4f;
+            font-size: large;
+        }
+      }
+      @media(min-width:481px) and (max-width:599px)
+      {
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+            background-image: url('/static/styles/lab2.jpg');
+            background-size: 100% 100%
+        }
+        
+        .floor{
+            display: grid;
+            height:129.43px;
+            width:315.42px;
+            padding: 4px;
+            grid-template-columns: 60.56px 36.68px 58.64px 41.84px 41.84px 56.36px;
+            grid-template-rows: 42.355px 17.86px 60.215px;
+            gap: 4px;
+            background-color: rgb(1, 48, 17);
+            margin-top: 2.5vh;
+        
+        }
+        .lab1{
+            grid-area: 1/1/3/2;
+            order: 0;
+            background-color: rgb(151, 164, 170);
+        }
+        .lab1 a{
+            display: block;
+            height: 100%;
+            width: 100%;
+            color: black;   
+        }
+        .storage{
+            grid-area: 1/2/2/3;
+            order: 0;
+            background-color: #d3d1d1;
+        }
+        .lab2{
+            grid-area: 1/3/3/4;
+            order: 0;
+            background-color: rgb(151, 164, 170); 
+            
+        }
+        .bathroom1{
+            grid-area: 1/4/2/5;
+            order: 0;
+            background-color: #828282;  
+        }
+        .bathroom2{
+            grid-area: 1/5/2/6;
+            order: 0;
+            background-color: #828282; 
+        }
+        .lab3{
+            grid-area: 1/6/3/7;
+            order: 0;
+            background-color: rgb(151, 164, 170); 
+        }
+        .lab4{
+            grid-area: 3/1/4/2;
+            order: 0;
+            background-color: rgb(151, 164, 170); 
+        }
+        .lobby1{
+            grid-area: 2/2/4/3;
+            order: 0;
+            background-color:rgb(251, 226, 204);
+        }
+        .lobby2{
+            grid-area: 3/2/4/5; 
+            order: 0;
+            background-color:rgb(251, 226, 204);
+        }
+        .lobby3{
+            grid-area: 2/4/4/6; 
+            order: 0;
+            background-color:rgb(251, 226, 204);
+        }
+        .lab5{
+            grid-area:3/6/4/7;
+            order: 0;
+            background-color: rgb(151, 164, 170); 
+        }
+        h2{
+            font-size: 7px;
+            text-align: center;
+            margin-bottom: 20px;
+           
+        }
+        h1{
+            color: #2f4f4f;
+            font-size: medium;
+            text-align: center;
+           
+        }
+      }
+      @media (min-width:319px) and (max-width:480px){
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+            background-image: url('/static/styles/lab2.jpg');
+            background-size: 100% 100%
+        }
+        
+        .floor{
+            display: grid;
+            height:129.43px;
+            width:315.42px;
+            padding: 4px;
+            grid-template-columns: 60.56px 36.68px 58.64px 41.84px 41.84px 56.36px;
+            grid-template-rows: 42.355px 17.86px 60.215px;
+            gap: 4px;
+            background-color: rgb(1, 48, 17);
+            margin-top: 2.5vh;
+        
+        }
+        .lab1{
+            grid-area: 1/1/3/2;
+            order: 0;
+            background-color: rgb(151, 164, 170);
+        }
+        .lab1 a{
+            display: block;
+            height: 100%;
+            width: 100%; 
+            color: black;  
+        }
+        .storage{
+            grid-area: 1/2/2/3;
+            order: 0;
+            background-color: #d3d1d1;
+        }
+        .lab2{
+            grid-area: 1/3/3/4;
+            order: 0;
+            background-color: rgb(151, 164, 170); 
+            
+        }
+        .bathroom1{
+            grid-area: 1/4/2/5;
+            order: 0;
+            background-color: #828282;  
+        }
+        .bathroom2{
+            grid-area: 1/5/2/6;
+            order: 0;
+            background-color: #828282; 
+        }
+        .lab3{
+            grid-area: 1/6/3/7;
+            order: 0;
+            background-color: rgb(151, 164, 170); 
+        }
+        .lab4{
+            grid-area: 3/1/4/2;
+            order: 0;
+            background-color: rgb(151, 164, 170); 
+        }
+        .lobby1{
+            grid-area: 2/2/4/3;
+            order: 0;
+            background-color:rgb(251, 226, 204);
+        }
+        .lobby2{
+            grid-area: 3/2/4/5; 
+            order: 0;
+            background-color:rgb(251, 226, 204);
+        }
+        .lobby3{
+            grid-area: 2/4/4/6; 
+            order: 0;
+            background-color:rgb(251, 226, 204);
+        }
+        .lab5{
+            grid-area:3/6/4/7;
+            order: 0;
+            background-color: rgb(151, 164, 170); 
+        }
+        h2{
+            font-size: 7px;
+            text-align: center;
+            margin-bottom: 20px;
+           
+        }
+        h1{
+            color: #2f4f4f;
+            font-size: medium;
+            text-align: center;
+           
+        }
+      }
