@@ -1,68 +1,71 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Lab 1</title>
-</head>
-<body>
-    
+
     <!DOCTYPE html>
     <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/lab1.css') }}">
         <title>UWB Position Tracking</title>
     </head>
-    <body>
-        <h1>UWB Position Tracking</h1>
-        <div id="canvas-container">
-            <canvas id="uwb-canvas" width="300" height="300"></canvas>
-        </div>
-        <script>
-            // Canvas-Element und 2D-Kontext holen
-            var canvas = document.getElementById('uwb-canvas');
-            var ctx = canvas.getContext('2d');
-    
-            // Funktion zum Aktualisieren der Tag-Position im Canvas
-            function updateTagPosition(x, y) {
-                // Lösche den vorherigen Inhalt des Canvas
-                ctx.clearRect(0, 0, canvas.width, canvas.height);
-    
-                // Zeichne Ankerpunkte
-                ctx.fillStyle = 'blue';
-                ctx.beginPath();
-                ctx.arc(50, 50, 5, 0, 2 * Math.PI);
-                ctx.fill();
-    
-                ctx.beginPath();
-                ctx.arc(200, 50, 5, 0, 2 * Math.PI);
-                ctx.fill();
-    
-                ctx.beginPath();
-                ctx.arc(50, 200, 5, 0, 2 * Math.PI);
-                ctx.fill();
-    
-                // Zeichne aktualisierte Tag-Position
-                ctx.fillStyle = 'red';
-                ctx.beginPath();
-                ctx.arc(x, y, 5, 0, 2 * Math.PI);
-                ctx.fill();
-            }
-    
-            // Simuliere eine Aktualisierung der Tag-Position (ersetze dies durch echte Daten)
-            function simulateUpdate() {
-                var newX = Math.random() * canvas.width;
-                var newY = Math.random() * canvas.height;
-                updateTagPosition(newX, newY);
-    
-                // Setze einen Timer für die nächste Aktualisierung (hier alle 1000 Millisekunden / 1 Sekunde)
-                setTimeout(simulateUpdate, 1000);
-            }
-    
-            // Starte die Simulation
-            simulateUpdate();
-        </script>
-    </body>
-    </html> <p>{{t}}</p>
-</body>
-</html>
+        <body>
+            <!-- Centered heading and canvas container -->
+            <center>
+                <h1>UWB Position Tracking</h1>
+                <div id="canvas-container">
+                    <!-- Canvas element for drawing -->
+                    <canvas id="uwb-canvas"></canvas>
+                </div>
+            </center>
+        
+            <!-- JavaScript for UWB position tracking simulation -->
+            <script>
+                // Get the canvas element and 2D context
+                var canvas = document.getElementById('uwb-canvas');
+                var ctx = canvas.getContext('2d');
+        
+                // Function to update the tag position on the canvas
+                function updateTagPosition(x, y) {
+                    // Clear the previous content of the canvas
+                    ctx.clearRect(0, 0, canvas.width, canvas.height);
+        
+                    // Draw anchor points
+                    ctx.fillStyle = 'blue';
+                    ctx.beginPath();
+                    ctx.arc(50, 50, 5, 0, 2 * Math.PI);
+                    ctx.fill();
+        
+                    ctx.beginPath();
+                    ctx.arc(200, 50, 5, 0, 2 * Math.PI);
+                    ctx.fill();
+        
+                    ctx.beginPath();
+                    ctx.arc(50, 200, 5, 0, 2 * Math.PI);
+                    ctx.fill();
+        
+                    // Draw the updated tag position
+                    ctx.fillStyle = 'red';
+                    ctx.beginPath();
+                    ctx.arc(x, y, 5, 0, 2 * Math.PI);
+                    ctx.fill();
+                }
+        
+                // Simulate an update of the tag position (replace this with real data)
+                function simulateUpdate() {
+                    // Generate random coordinates for simulation
+                    var newX = Math.random() * canvas.width;
+                    var newY = Math.random() * canvas.height;
+        
+                    // Update the tag position on the canvas
+                    updateTagPosition(newX, newY);
+        
+                    // Set a timer for the next update (every 1000 milliseconds / 1 second)
+                    setTimeout(simulateUpdate, 1000);
+                }
+        
+                // Start the simulation
+                simulateUpdate();
+            </script>
+        </body>
+ </html>
+

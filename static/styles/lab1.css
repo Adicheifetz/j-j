@@ -1,0 +1,87 @@
+
+
+@media(min-width:1201px){
+    #uwb-canvas{
+            
+        background-image: url('/static/styles/lab1.jpg');
+        background-size:100% 100%;
+        width: 900px;
+    }
+    h1{
+        color: #2f4f4f;
+        
+    }
+    }
+    @media(min-width:1000px) and (max-width:1200px){
+        #uwb-canvas{
+            
+            background-image: url('/static/styles/lab1.jpg');
+            background-size:100% 100%;
+            width: 800px;
+            height: 350px;
+        }
+        h1{
+            color: #2f4f4f;
+            
+        }
+      }
+      @media(min-width:800px) and (max-width:999px)
+      {
+        #uwb-canvas{
+            
+            background-image: url('/static/styles/lab1.jpg');
+            background-size:100% 100%;
+            width: 700px;
+            height: 300px;
+        }
+        h1{
+            color: #2f4f4f;
+            font-size: x-large;
+            
+        }
+      }
+      @media(min-width:600px) and (max-width:799px)
+      {
+        #uwb-canvas{
+            
+            background-image: url('/static/styles/lab1.jpg');
+            background-size:100% 100%;
+            width: 500px;
+            height: 200px;
+        }
+        h1{
+            color: #2f4f4f;
+            font-size: large;
+        }
+      }
+      @media(min-width:481px) and (max-width:599px)
+      {
+        #uwb-canvas{
+            
+            background-image: url('/static/styles/lab1.jpg');
+            background-size:100% 100%;
+            width: 300px;
+            height: 130px;
+        }
+        h1{
+            color: #2f4f4f;
+            font-size: medium;
+            text-align: center;
+           
+        }
+      }
+      @media (min-width:319px) and (max-width:480px){
+        #uwb-canvas{
+         
+            background-image: url('/static/styles/lab1.jpg');
+            background-size: 100% 100%;
+            width: 200px;
+            height: 100px;
+        }
+        h1{
+            color: #2f4f4f;
+            font-size: medium;
+            text-align: center;
+           
+        }
+      }
